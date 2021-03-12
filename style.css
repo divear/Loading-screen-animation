@@ -1,0 +1,49 @@
+
+body{
+    background-color: rgb(209, 237, 250);
+}
+
+.Heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline wavy rgb(31, 41, 46) 2px;
+}
+.circle{
+    position: absolute;
+    background-color: coral;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10vw;
+    left: 40%;
+    top: 30%;
+    overflow: hidden;
+}
+.line{
+    position: absolute;
+    width: 1vw;
+    height: 19vw;
+    background-color: rgb(44, 250, 171);
+    left: 48%;
+    top: 2.5%;
+    border-radius: 5%;
+    animation-name: rotate;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    border-radius: 1vw;
+    overflow: hidden;
+    border: none;
+    
+
+}
+@keyframes rotate {
+from{transform: rotate(0deg);}
+to{transform: rotate(216000deg);}
+
+}
+.blocker{
+    position: absolute;
+    width: 1vw;
+    height: 9.5vw;
+    background-color: rgb(127, 80, 255);
+    
+}
